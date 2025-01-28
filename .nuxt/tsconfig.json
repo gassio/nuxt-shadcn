@@ -48,7 +48,7 @@
         "../node_modules/vite/client"
       ],
       "@/lib/utils": [
-        "./shadcn-nuxt/utils.ts"
+        "./shadcn-nuxt/utils"
       ],
       "~": [
         ".."
@@ -98,6 +98,12 @@
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
+      "#image": [
+        "../node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/@nuxt/image/dist/runtime/*"
+      ],
       "#vue-router": [
         "../node_modules/vue-router"
       ],
@@ -105,7 +111,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/cf6c737a-62cc-4638-aa2d-2d7af25dab3b.json"
+        "./manifest/meta/dev.json"
       ],
       "#components": [
         "./components"
@@ -155,6 +161,8 @@
     "../node_modules/@nuxtjs/color-mode/dist/runtime",
     "../node_modules/shadcn-nuxt/runtime",
     "../node_modules/shadcn-nuxt/dist/runtime",
+    "../node_modules/@nuxt/image/runtime",
+    "../node_modules/@nuxt/image/dist/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -168,6 +176,7 @@
     "../node_modules/@nuxtjs/tailwindcss/node_modules",
     "../node_modules/@nuxtjs/color-mode/node_modules",
     "../node_modules/shadcn-nuxt/node_modules",
+    "../node_modules/@nuxt/image/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
@@ -176,6 +185,8 @@
     "../node_modules/@nuxtjs/color-mode/dist/runtime/server",
     "../node_modules/shadcn-nuxt/runtime/server",
     "../node_modules/shadcn-nuxt/dist/runtime/server",
+    "../node_modules/@nuxt/image/runtime/server",
+    "../node_modules/@nuxt/image/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

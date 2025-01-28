@@ -1,1 +1,0 @@
-import{_ as o,c as t,a as n,o as s}from"./Bb-Ihaqp.js";const r={};function a(c,e){return s(),t("section",null,e[0]||(e[0]=[n("h1",null,"About Me",-1),n("p",null,"Your background, skills, and interests.",-1)]))}const u=o(r,[["render",a]]);export{u as default};
