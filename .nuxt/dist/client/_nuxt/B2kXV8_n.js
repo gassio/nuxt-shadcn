@@ -1,0 +1,1 @@
+import{_ as t,c as o,a as e,d as a,o as r}from"./Bb-Ihaqp.js";const l={};function c(s,n){return r(),o("section",null,n[0]||(n[0]=[e("h1",null,"Contact Me",-1),e("p",null,"Email: your.email@example.com",-1),e("p",null,[a("LinkedIn: "),e("a",{href:"https://linkedin.com/in/your-profile",target:"_blank"},"Your LinkedIn")],-1)]))}const u=t(l,[["render",c]]);export{u as default};
